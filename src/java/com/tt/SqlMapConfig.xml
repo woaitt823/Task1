@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings><!--整合的话，不设置settngs也行 -->
+        <!-- 打开延迟加载的开关 -->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <!-- 将积极加载改为消极加载，即延迟加载 -->
+        <setting name="aggressiveLazyLoading" value="false"/>
+        <!-- 开启二级缓存 -->
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
+    <!-- 别名的定义 -->
+    <typeAliases>
+        <package name="fgh"/>
+    </typeAliases>
+    <mappers>
+        <mapper resource="User.xml"/>
+        <package name="resources"/> <!-- 扫描整个包 -->
+    </mappers>
+</configuration>

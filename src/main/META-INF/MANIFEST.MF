@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Class-Path: libs/log4j-1.2.17.jar libs/mysql-connector-java-8.0.11.jar
+  libs/spring-webmvc-4.3.18.RELEASE.jar libs/commons-dbutils-1.6.jar l
+ ibs/spring-expression-4.3.18.RELEASE.jar libs/commons-dbcp-1.4.jar li
+ bs/spring-web-4.3.18.RELEASE.jar libs/spring-core-4.3.18.RELEASE.jar 
+ libs/protobuf-java-2.6.0.jar libs/spring-beans-4.3.18.RELEASE.jar lib
+ s/spring-aop-4.3.18.RELEASE.jar libs/commons-logging-1.2.jar libs/myb
+ atis-spring-1.3.1.jar libs/slf4j-api-1.7.2.jar libs/commons-pool-1.5.
+ 4.jar libs/spring-context-4.3.18.RELEASE.jar libs/slf4j-log4j12-1.7.2
+ .jar libs/hamcrest-core-1.3.jar libs/spring-tx-4.3.18.RELEASE.jar lib
+ s/mybatis-3.4.1.jar libs/junit-4.12.jar libs/spring-instrument-4.3.18
+ .RELEASE.jar libs/spring-instrument-tomcat-4.3.18.RELEASE.jar libs/sp
+ ring-aspects-4.3.18.RELEASE.jar libs/spring-context-support-4.3.18.RE
+ LEASE.jar libs/spring-expression-4.3.18.RELEASE.jar libs/spring-jms-4
+ .3.18.RELEASE.jar libs/spring-jdbc-4.3.18.RELEASE.jar libs/spring-oxm
+ -4.3.18.RELEASE.jar libs/spring-aop-4.3.18.RELEASE.jar libs/spring-me
+ ssaging-4.3.18.RELEASE.jar libs/aopalliance-1.0.jar libs/spring-conte
+ xt-4.3.18.RELEASE.jar libs/commons-logging-1.2.jar libs/spring-tx-4.3
+ .18.RELEASE.jar libs/spring-beans-4.3.18.RELEASE.jar libs/spring-core
+ -4.3.18.RELEASE.jar libs/spring-orm-4.3.18.RELEASE.jar libs/spring-te
+ st-4.3.18.RELEASE.jar
+Main-Class: com.tt.App
+
